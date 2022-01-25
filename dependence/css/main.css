@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVEGACION */
+
+.pagHome .navbar-brand {
+
+    height: 60px;
+    transition: all ease 0.5s;
+}
+
+.pagHome .navbar-brand:hover {
+
+    cursor: pointer;
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    overflow: hidden;
+}
+
+.navbar {
+
+    border-bottom: 4px solid #df1818c4;
+}
+
+.nav-item .nav-link {
+
+    color: #F2F2F2 !important;
+    transition: all ease 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    color: #f2f2f252 !important;
+}
+
+/* FUNDADOR */
+
+.rounded-start {
+
+    height: 100vh;
+    max-height: 530px;
+}
+
+.titulo-jose {
+
+    font-size: 60px !important;
+    border-bottom: 2px solid #df1818c4;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.texto-jose {
+
+    font-size: 20px;
+    text-align: justify;
+}
+
+.btn-fund button {
+
+    width: 50%;
+    margin-top: 20px;
+    color: #F2F2F2;
+    background-color:#a51c30;
+    transition: all ease 0.5s;
+}
+
+.btn-fundd button:hover {
+
+    color: #F2F2F2;
+    background-color:#851223;
+}
+
+/* TITULOS DE INFORMACION */
+
+.info {
+
+    color: #F2F2F2;
+    font-size: 30px;
+    margin-top: -18px;
+    background-color:#212529;
+}
+
+/* CARTAS DE INFORMACION DE INTERES */
+
+.info-interes h5, .servicios h5, .unid-ped h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.info-interes p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* BOTONES DE INFORMACION DE INTERES */
+
+.btn-info-int {
+
+    background-color:#a51c30;
+    color: #F2F2F2;
+    transition: all ease 0.5s;
+}
+
+.btn-info-int:hover {
+
+    background-color:#851223;
+    color: #F2F2F2;
+
+}
+
+/* SERVICIOS */
+
+.servicios p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+/* SOCIAL */
+
+.social {
+    width: 100vh;
+    font-size: 80px;
+}
+
+.social .fa-facebook-square {
+    color: #3b5998;
+    transition: all ease 0.5s;
+}
+
+.social .fa-facebook-square:hover {
+    -webkit-transform:scale(1.5);transform:scale(1.5);
+    overflow: hidden;
+}
+
+.social .fa-twitter {
+    color: #00acee;
+    transition: all ease 0.5s;
+}
+
+.social .fa-twitter:hover {
+    -webkit-transform:scale(1.5);transform:scale(1.5);
+    overflow: hidden;
+}
+
+.social .fa-instagram {
+    color: #e6215c;
+    transition: all ease 0.5s;
+}
+
+.social .fa-instagram:hover {
+    -webkit-transform:scale(1.5);transform:scale(1.5);
+    overflow: hidden;
+}
+
+.social .fa-youtube {
+    color: #f00;
+    transition: all ease 0.5s;
+}
+
+.social .fa-youtube:hover {
+    -webkit-transform:scale(1.5);transform:scale(1.5);
+    overflow: hidden;
+}
+
