@@ -27,7 +27,7 @@
 
             <div class="container-fluid">
     
-              <img class="navbar-brand" src="./dependence/img/logo-iujo.png" href="#"></img>
+              <img class="navbar-brand" src="./dependence/img/logo-iujo.png"></img>
     
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     
@@ -38,37 +38,45 @@
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="home.html">Inicio</a>
                   </li>
+
+                  <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conócenos</a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://drive.google.com/file/d/1NK8EI0r2t_Gmvy6HgIl4jmZb2HohdBOs/view" target="_blank">Fundador</a></li>
+                      <li><a class="dropdown-item" href="https://drive.google.com/file/d/15fAnvADT-2TNHzQyDB9IdgnDibOLrUw0/view" target="_blank">¿Quiénes Somos?</a></li>
+                      <li><a class="dropdown-item" href="https://drive.google.com/file/d/1BFvAIKHYwx4mNioehB2-wbWb-tM2YoXU/view" target="_blank">Reseña Histórica</a></li>
+                    </ul>  
+
+                  </li> 
     
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Conócenos</a>
+                    <a class="nav-link" href="http://190.120.252.155:49153/sigea/" target="_blank">Sigea</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">Carreras</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">Biblioteca</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://aulabqto.iujoac.org.ve/login/index.php/" target="_blank">Aula Virtual</a>
                   </li>
     
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sigea</a>
+                    <a class="nav-link" href="https://drive.google.com/file/d/1dO98Sja7P6qt5HAJRCDGaSVnvmsHGfeu/view" target="_blank">Boletin Informativo</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Carreras</a>
+                    <a class="nav-link" href="https://radios.co.ve/alegria-barquisimeto/" target="_blank">Iujo BQTO97.5FM</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Biblioteca</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Aula Virtual</a>
-                  </li>
-    
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Boletin Informativo</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Iujo BQTO97.5FM</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Admitidos Al Nuevo Ingreso (1-2022)</a>
+                    <a class="nav-link disabled" href="#" target="_blank">Admitidos Al Nuevo Ingreso (1-2022)</a>
                   </li>
     
                 </ul>
@@ -99,7 +107,7 @@
                   <p class="card-text texto-jose">Hay hombres que sembraron sus vidas en tierra fértil y la abonaron con servicio y entrega. Por ello, fueron capaces de levantar grandes cosechas en el corazón de multitudes. Uno de esos hombres fue el Padre José María Vélaz, el Fundador de Fe y Alegría.</p>
   
                   <div class="d-grid btn-fund">
-                    <button type="button" class="btn">Leer Más</button>
+                    <button class="btn"><a class="text-decoration-none border-none text-white" target="_blank" href="https://drive.google.com/file/d/1NK8EI0r2t_Gmvy6HgIl4jmZb2HohdBOs/view">Leer Más</a></button>
                   </div>
   
                 </div>
@@ -114,7 +122,7 @@
 
           <div class="card">
 
-            <div class="card-body text-center info">Información Reciente</div>
+            <div class="card-body text-center info info-reciente">Información Reciente</div>
   
           </div>
 
@@ -124,15 +132,8 @@
 
         <section class="carousel-inf-reciente">
 
-          <div id="carouselExampleIndicators" class="carousel slide container bg-dark" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
 
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-  
             <div class="carousel-inner">
   
               <div class="carousel-item active">
@@ -153,7 +154,7 @@
   
             </div>
   
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
@@ -188,7 +189,7 @@
                 <h5 class="card-title">Boletin Informativo Semanal</h5>
                 <p class="card-text">Debe ser revisado semanalmente por toda la Comunidad del IUJO-Barquisimeto, para estar al día.</p>
               </div>
-              <button type="button" class="btn btn-lg btn-info-int">Ver Más</button>
+              <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="https://drive.google.com/file/d/1dO98Sja7P6qt5HAJRCDGaSVnvmsHGfeu/view" target="_blank">Ver Más</a></button>
 
             </div>
 
@@ -199,7 +200,7 @@
                 <h5 class="card-title">Apadrinamiento</h5>
                 <p class="card-text">Para ver nuevas todas las cosas, debemos mirar con el corazón. Tú quien ve más allá del claroscuro de la adversidad puedes darle matices a la vida de nuestros jóvenes sendo su padrino.</p>
               </div>
-              <button type="button" class="btn btn-lg btn-info-int">Ver Más</button>
+              <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="http://www.iujobarquisimeto.edu.ve/img/campanaapadrinar.jpg" target="_blank">Ver Más</a></button>
 
             </div>
 
@@ -210,8 +211,7 @@
                 <h5 class="card-title">Bienestar para Todos</h5>
                 <p class="card-text">Tú bienestar es el de todos. Así que, a cuidarnos.</p>
               </div>
-              <button type="button" class="btn btn-lg btn-info-int">Ver Más</button>
-
+              <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="http://www.iujobarquisimeto.edu.ve/img/Bienestar5.jpg" target="_blank">Ver Más</a></button>
             </div>
 
             <div class="card-group mt-5">
@@ -223,8 +223,7 @@
                   <h5 class="card-title">Convenio IUJO - UPTAEB</h5>
                   <p class="card-text">Atención Egresados del IUJO-Barquisimeto en las carreras de Administración de Empresas, Contaduría e Informática.</p>
                 </div>
-                <button type="button" class="btn btn-lg btn-info-int">Ver Más</button>
-  
+                <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="http://www.iujobarquisimeto.edu.ve/img/2doCENSOPARAEGRESADOS.jpg" target="_blank">Ver Más</a></button>
               </div>
   
               <div class="card rounded-3">
@@ -234,7 +233,7 @@
                   <h5 class="card-title">Pago de Mensualidad</h5>
                   <p class="card-text">Es importante mantenerse solvente cada mes con el pago de la mensualidad. Consulta los costos y datos a transferir.</p>
                 </div>
-                <button type="button" class="btn btn-lg btn-info-int">Ver Más</button>
+                <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="http://www.iujobarquisimeto.edu.ve/registrapagodeMatricula.php" target="_blank">Ver Más</a></button>
   
               </div>
   
@@ -245,7 +244,7 @@
                   <h5 class="card-title">Botica Iujo</h5>
                   <p class="card-text">Contamos con medicamentos, insumos y otros productos necesarios para la atención de la comunindad Universitaria y público en general que lo necesite.</p>
                 </div>
-                <button type="button" class="btn btn-lg btn-info-int">Ver Más</button>
+                <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="https://drive.google.com/file/d/1nXk8JyeNQMdhlfOrobuXNHuQhStvNMrX/view" target="_blank">Ver Más</a></button>
   
               </div>
 
@@ -327,29 +326,47 @@
 
         <!-- UNIDAD PEDAGOGICA -->
 
-        <section class="container unid-ped p-5">
+        <section class="container- unid-ped p-5">
 
-          <div class="card mb-3">
+          <div class="row">
 
-            <img style="height: 400px;" src="./dependence/img/pedagogicoupp.png" class="card-img-top" alt="...">
+            <div class="col">
 
-            <div class="card-body ">
-              <h5 class="card-title">Tareas Dirigidas</h5>
-              <div class="d-grid"><button type="button" class="btn btn-lg btn-info-int"><a>Ver más</a></button></div>
+              <div class="card mb-3">
+
+                <img src="./dependence/img/pedagogicoupp.png" class="card-img-top" alt="...">
+    
+                <div class="card-body ">
+                  <h5 class="card-title">Tareas Dirigidas</h5>
+                  <div class="d-grid">
+                    <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="http://www.iujobarquisimeto.edu.ve/img/uppdirigidas.png" target="_blank">Ver más</a></button></div>
+                </div>
+    
+              </div>
+
+            </div>
+
+            <div class="col">
+
+              <div class="card mb-3">
+
+                <img src="./dependence/img/cursoingles12022.png" class="card-img-top" alt="...">
+    
+                <div class="card-body ">
+                  <h5 class="card-title">Curso de Inglés</h5>
+                  <div class="d-grid">
+                    <button type="button" class="btn btn-lg btn-info-int"><a class="text-decoration-none text-white" href="http://www.iujobarquisimeto.edu.ve/img/uppdirigidas.png" target="_blank">Ver más</a></button></div>
+                </div>
+    
+              </div>
+
             </div>
 
           </div>
 
-          <div class="card">
+          
 
-            <div class="card-body">
-              <h5 class="card-title">Curso de Inglés</h5>
-              <div class="d-grid"><button type="button" class="btn btn-lg btn-info-int"><a>Ver más</a></button></div>
-            </div>
-
-            <img style="height: 400px;" src="./dependence/img/cursoingles12022.png" class="card-img-bottom" alt="...">
-
-          </div>
+          
 
         </section>
 
@@ -368,19 +385,19 @@
           <div class="row">
 
             <div class="col-3">
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a class="text-decoration-none" href="https://www.facebook.com/Iujo.bqto" target="_blank"><i class="fab fa-facebook-square"></i></a>
             </div>
 
             <div class="col-3">
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a class="text-decoration-none" href="https://twitter.com/iujobqto?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
 
             <div class="col-3">
-              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a class="text-decoration-none" href="https://www.instagram.com/iujobqtooficial/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
 
             <div class="col-3">
-              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a class="text-decoration-none" href="https://www.youtube.com/channel/UCOy4jPq7U0S6iWE_50qZeVg" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
 
           </div>

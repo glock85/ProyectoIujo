@@ -3,13 +3,20 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: none !important;
+    
 }
 
 body {
+    background-color: #F2F2F2;
+}
+
+.info-interes, .unid-ped {
     background: linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 50%)), url(../img/4header.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    width: 100%;
+    max-width: none;
 }
 
 /* NAVEGACION */
@@ -42,10 +49,34 @@ body {
     color: #f2f2f252 !important;
 }
 
+.dropdown-menu {
+    
+    background: #212529;
+}
+
+.dropdown-menu li a {
+    color: #F2F2F2;
+}
+
+.dropdown-menu li a:hover {
+    transition: all ease 0.5s;
+    color: #F2F2F2;
+    background-color: #a51c30;
+}
+
 /* FUNDADOR */
 
-.rounded-start {
+.descrip-fund {
+    padding: 30px 50px;
+}
 
+.fundador-home {
+
+    background-color: #F2F2F2 !important;
+}
+
+.rounded-start {
+    
     height: 100vh;
     max-height: 530px;
     
@@ -87,15 +118,30 @@ body {
 
 /* TITULOS DE INFORMACION */
 
+.info-reciente {
+
+    color: #F2F2F2;
+    font-size: 30px;  
+    background-color:#212529;
+    margin-top: -16px;
+}
+
 .info {
 
     color: #F2F2F2;
-    font-size: 30px;
-    margin-top: -18px;
+    font-size: 30px;  
     background-color:#212529;
 }
 
 /* CARTAS DE INFORMACION DE INTERES */
+
+
+.carousel-item img {
+    
+    padding: 50px;
+    height: 100%;
+    max-height: 600px;
+}
 
 .info-interes h5, .servicios h5, .unid-ped h5 {
     text-align: center;
@@ -105,6 +151,10 @@ body {
 .info-interes p{
     text-align: justify;
     font-size: 20px;
+}
+
+.carousel-inf-reciente {
+    background-color: #F2F2F2;
 }
 
 /* BOTONES DE INFORMACION DE INTERES */
@@ -125,19 +175,41 @@ body {
 
 /* SERVICIOS */
 
+.servicios {
+
+    background-color: #F2F2F2;
+    max-width: none;
+
+}
+
 .servicios p {
 
     text-align: justify;
     font-size: 15px;
 }
 
+.info-interes .card-img-top, .servicios .card-img-top {
+    height: 250px;
+}
+
+/* UNIDAD PEDAGOGICA */
+
+.unid-ped .card{
+
+    width: 100%;
+    max-width: 800px;
+     
+ }
+
 /* SOCIAL */
 
-
+.social {
+    background-color: #F2F2F2;
+    max-width: none;
+}
 
 .social a i {
 
-   
     font-size: 80px;
 }
 
@@ -200,4 +272,6 @@ footer {
 
     margin: 0 10px;
 }
+
+
 
